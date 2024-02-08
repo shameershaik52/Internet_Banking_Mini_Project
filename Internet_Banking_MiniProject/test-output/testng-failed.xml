@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Internet_Banking_MiniProject]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tcs.utilities.Reporting_Extent_Reports"/>
+  </listeners>
+  <test thread-count="5" name="BankingApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tcs.testcases.AddCustomerTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="addCust"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tcs.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [Internet_Banking_MiniProject] -->

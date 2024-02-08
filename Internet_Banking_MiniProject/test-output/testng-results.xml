@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-29T23:52:27 IST" name="Internet_Banking_MiniProject" finished-at="2024-01-29T23:52:59 IST" duration-ms="31949">
+    <groups>
+    </groups>
+    <test started-at="2024-01-29T23:52:27 IST" name="BankingApp Test" finished-at="2024-01-29T23:52:59 IST" duration-ms="31949">
+      <class name="com.tcs.testcases.AddCustomerTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tcs.testcases.AddCustomerTest@1ba9117e]" started-at="2024-01-29T23:52:28 IST" name="setUp" finished-at="2024-01-29T23:52:38 IST" duration-ms="10181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCust()[pri:0, instance:com.tcs.testcases.AddCustomerTest@1ba9117e]" started-at="2024-01-29T23:52:38 IST" name="addCust" finished-at="2024-01-29T23:52:58 IST" duration-ms="20276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tcs.testcases.AddCustomerTest@1ba9117e]" started-at="2024-01-29T23:52:58 IST" name="teardown" finished-at="2024-01-29T23:52:59 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tcs.testcases.AddCustomerTest -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- Internet_Banking_MiniProject -->
+</testng-results>

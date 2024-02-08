@@ -1,0 +1,4 @@
+2024-01-26 22:42:54 INFO  ebanking:14 - URL is opened
+2024-01-26 22:42:55 INFO  ebanking:18 - entered username
+2024-01-26 22:42:55 INFO  ebanking:20 - entered password
+2024-01-26 22:42:58 INFO  ebanking:26 - Login test passed
